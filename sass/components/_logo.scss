@@ -1,0 +1,9 @@
+.logo {
+  @include font(26px, bold, 1.19, 0.03em);
+  font-family: Raleway;
+  list-style-type: none;
+  color: var(--color-primary);
+}
+.pre-logo {
+  color: var(--accent-color);
+}
